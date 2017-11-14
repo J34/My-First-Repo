@@ -1,3 +1,4 @@
+import time
 ### MAD LIBS ###
 ### Source: https://i.pinimg.com/736x/cf/1b/8d/cf1b8d9e0c5015a19f1500aba9cb47f1--mad-libs-game-funny-mad-libs.jpg
 
@@ -24,7 +25,7 @@ print("Noun")
 noun2 = input()
 
 print("A City")
-cty = input()
+cty1 = input()
 
 print("Plural Noun")
 pnoun2 = input()
@@ -94,3 +95,6 @@ print("the " + adj6 + " new website ")
 print("to " + vrb1 + " for books! ")
 print("With all the time you'll save not having to search for " + pnoun4 + ", ")
 print("you can read " + nmbr1 + "more books!")
+
+
+time.sleep(100)
